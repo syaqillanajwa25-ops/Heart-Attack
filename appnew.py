@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 import pandas as pd
 
-preprocessor = joblib.load("artifacts/preprocessor.pkl")
-model = joblib.load("artifacts/model.pkl")
+preprocessor = joblib.load("preprocessor.pkl")
+model = joblib.load("model.pkl")
 
 
 def main():
